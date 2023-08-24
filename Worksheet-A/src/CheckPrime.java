@@ -7,6 +7,7 @@ public class CheckPrime {
         int n = sc.nextInt();
 
         int count = 0;
+        //Count for checking factors of n
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
                 count++;
