@@ -8,7 +8,7 @@ public class CheckPalindrome {
         
         //Palindrome is one which is same from forward and backward
         int reverse = 0;
-        //Storing n in temporary variable
+        //Storing n in temporary variable to save n for later
         int temp = n;
         while (temp > 0) {
             reverse = reverse * 10 + temp % 10;
