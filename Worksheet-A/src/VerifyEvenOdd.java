@@ -10,5 +10,6 @@ public class VerifyEvenOdd {
         }else {
             System.out.print("Odd");
         }
+        sc.close();
     }
 }
